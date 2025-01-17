@@ -1,0 +1,42 @@
+[1.565s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build
+[1.948s] running develop
+[1.948s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.948s]   warnings.warn(
+[2.174s] Removing /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[2.314s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build
+[2.315s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data --force
+[2.923s] running egg_info
+[2.924s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.924s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.924s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.924s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[2.925s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.926s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.931s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.931s] running build
+[2.931s] running build_py
+[2.931s] creating /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build
+[2.932s] creating /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[2.932s] creating /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.932s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.937s] copying examples_rclpy_minimal_service/__init__.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.937s] copying examples_rclpy_minimal_service/service.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.937s] running install
+[2.937s] running install_lib
+[2.940s] creating /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.940s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.941s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.941s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.941s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[2.941s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[2.941s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[2.945s] running install_data
+[2.945s] copying resource/examples_rclpy_minimal_service -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.945s] copying package.xml -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[2.945s] running install_egg_info
+[2.946s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.3-py3.10.egg-info
+[2.947s] running install_scripts
+[2.988s] Installing service script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.988s] Installing service_member_function script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.989s] writing list of installed files to '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[3.061s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub
+[0.091s] -- The C compiler identification is GNU 11.4.0
+[0.173s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.315s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.476s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.588s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.652s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.802s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.807s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.938s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.002s] -- Looking for pthread.h
+[1.065s] -- Looking for pthread.h - found
+[1.065s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.131s] -- Found Threads: TRUE  
+[1.298s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.390s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.390s] -- Configured cppcheck include dirs: 
+[1.390s] -- Configured cppcheck exclude dirs and/or files: 
+[1.391s] -- Added test 'lint_cmake' to check CMake code style
+[1.392s] -- Added test 'uncrustify' to check C / C++ code style
+[1.392s] -- Configured uncrustify additional arguments: 
+[1.393s] -- Added test 'xmllint' to check XML markup files
+[1.394s] -- Configuring done
+[1.404s] -- Generating done
+[1.405s] -- Build files have been written to: /home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub
+[1.413s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub
+[1.414s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[1.457s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[1.457s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.372s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[5.543s] [ 75%] Built target talker
+[8.708s] [100%] [32m[1mLinking CXX executable listener[0m
+[9.031s] [100%] Built target listener
+[9.041s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub -- -j8 -l8
+[9.076s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub
+[9.082s] -- Install configuration: ""
+[9.082s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[9.083s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[9.083s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[9.083s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[9.086s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[9.086s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[9.086s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[9.086s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[9.086s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[9.087s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[9.088s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[9.088s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[9.088s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[9.090s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_service:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_server:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_action_client:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_guard_conditions:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/cpp_pubsub

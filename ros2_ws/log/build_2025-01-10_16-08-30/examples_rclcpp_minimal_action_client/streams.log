@@ -1,0 +1,86 @@
+[0.029s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.339s] -- The CXX compiler identification is GNU 11.4.0
+[0.356s] -- Detecting C compiler ABI info
+[0.485s] -- Detecting C compiler ABI info - done
+[0.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.504s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.511s] -- Detecting CXX compiler ABI info
+[0.660s] -- Detecting CXX compiler ABI info - done
+[0.680s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.681s] -- Detecting CXX compile features
+[0.686s] -- Detecting CXX compile features - done
+[0.689s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.135s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.200s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.290s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.303s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.324s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.365s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.412s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.821s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.962s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.968s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.175s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.236s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.341s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.361s] -- Looking for pthread.h
+[2.486s] -- Looking for pthread.h - found
+[2.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.618s] -- Found Threads: TRUE  
+[3.013s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.219s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.431s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.434s] -- Configured cppcheck include dirs: 
+[3.435s] -- Configured cppcheck exclude dirs and/or files: 
+[3.437s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.439s] -- Configured cpplint exclude dirs and/or files: 
+[3.439s] -- Added test 'lint_cmake' to check CMake code style
+[3.441s] -- Added test 'uncrustify' to check C / C++ code style
+[3.441s] -- Configured uncrustify additional arguments: 
+[3.443s] -- Added test 'xmllint' to check XML markup files
+[3.449s] -- Configuring done
+[3.491s] -- Generating done
+[3.499s] -- Build files have been written to: /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client
+[3.520s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client
+[3.521s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[3.726s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[3.726s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[3.755s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[3.766s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[20.373s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[21.411s] [ 62%] Built target action_client_not_composable
+[25.622s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[26.031s] [ 75%] Built target action_client_not_composable_with_cancel
+[26.822s] [ 87%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[27.666s] [ 87%] Built target action_client_not_composable_with_feedback
+[27.809s] [100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[28.300s] [100%] Built target action_client_member_functions
+[28.324s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[28.513s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client
+[28.564s] -- Install configuration: ""
+[28.564s] -- Execute custom install script
+[28.564s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[28.588s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[28.632s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[28.682s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[28.708s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[28.748s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[28.804s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[28.843s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[28.874s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[28.906s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[28.945s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[28.981s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[29.024s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[29.057s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[29.085s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[29.108s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[29.129s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[29.150s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[29.172s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[29.211s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_action_client

@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/ningbo@netid.washington.edu/ros2_ws/src/tutorial_interfaces:msg/Num.msg",
+    "/home/ningbo@netid.washington.edu/ros2_ws/src/tutorial_interfaces:msg/Sphere.msg",
+    "/home/ningbo@netid.washington.edu/ros2_ws/src/tutorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}

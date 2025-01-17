@@ -1,0 +1,72 @@
+[0.036s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[0.640s] -- The C compiler identification is GNU 11.4.0
+[0.640s] -- The CXX compiler identification is GNU 11.4.0
+[0.697s] -- Detecting C compiler ABI info
+[0.982s] -- Detecting C compiler ABI info - done
+[1.070s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.074s] -- Detecting C compile features
+[1.074s] -- Detecting C compile features - done
+[1.086s] -- Detecting CXX compiler ABI info
+[1.479s] -- Detecting CXX compiler ABI info - done
+[1.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.550s] -- Detecting CXX compile features
+[1.558s] -- Detecting CXX compile features - done
+[1.564s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.130s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.315s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.470s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.682s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.718s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.761s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.828s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.160s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.492s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.617s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.893s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.943s] -- Looking for pthread.h
+[4.248s] -- Looking for pthread.h - found
+[4.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.603s] -- Found Threads: TRUE  
+[5.383s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.735s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.743s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.743s] -- Configured cppcheck include dirs: 
+[5.744s] -- Configured cppcheck exclude dirs and/or files: 
+[5.747s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.748s] -- Configured cpplint exclude dirs and/or files: 
+[5.751s] -- Added test 'lint_cmake' to check CMake code style
+[5.756s] -- Added test 'uncrustify' to check C / C++ code style
+[5.759s] -- Configured uncrustify additional arguments: 
+[5.759s] -- Added test 'xmllint' to check XML markup files
+[5.767s] -- Configuring done
+[5.816s] -- Generating done
+[5.824s] -- Build files have been written to: /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[5.915s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[5.918s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[6.430s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[25.304s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[25.881s] [100%] Built target multithreaded_executor
+[25.896s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[25.932s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[25.941s] -- Install configuration: ""
+[25.942s] -- Execute custom install script
+[25.943s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[25.955s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[25.968s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[25.981s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[25.993s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[26.005s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[26.017s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[26.028s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[26.040s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[26.052s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[26.064s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[26.076s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[26.088s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[26.100s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[26.112s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[26.123s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[26.139s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_multithreaded_executor

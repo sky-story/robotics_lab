@@ -1,0 +1,119 @@
+[0.033s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set
+[0.306s] -- The C compiler identification is GNU 11.4.0
+[0.579s] -- The CXX compiler identification is GNU 11.4.0
+[0.616s] -- Detecting C compiler ABI info
+[0.873s] -- Detecting C compiler ABI info - done
+[0.928s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.928s] -- Detecting C compile features
+[0.929s] -- Detecting C compile features - done
+[0.951s] -- Detecting CXX compiler ABI info
+[1.297s] -- Detecting CXX compiler ABI info - done
+[1.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.347s] -- Detecting CXX compile features
+[1.353s] -- Detecting CXX compile features - done
+[1.362s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.156s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.470s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.622s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.637s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.667s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.774s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.466s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.741s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.751s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.138s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.294s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.543s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.608s] -- Looking for pthread.h
+[4.946s] -- Looking for pthread.h - found
+[4.947s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.289s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.291s] -- Found Threads: TRUE  
+[6.274s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[6.709s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.005s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.009s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.012s] -- Configured cppcheck include dirs: /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/wait_set/include
+[7.013s] -- Configured cppcheck exclude dirs and/or files: 
+[7.017s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.017s] -- Configured cpplint exclude dirs and/or files: 
+[7.021s] -- Added test 'lint_cmake' to check CMake code style
+[7.025s] -- Added test 'uncrustify' to check C / C++ code style
+[7.026s] -- Configured uncrustify additional arguments: 
+[7.030s] -- Added test 'xmllint' to check XML markup files
+[7.033s] -- Configuring done
+[7.159s] -- Generating done
+[7.168s] -- Build files have been written to: /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set
+[7.202s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set
+[7.203s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[8.466s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[19.013s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[19.468s] [  8%] Built target talker
+[19.511s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[29.522s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[29.522s] [ 20%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[30.554s] [ 25%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[31.620s] [ 29%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[31.620s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[32.651s] [ 37%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[33.699s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[36.295s] [ 45%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[37.323s] [ 45%] Built target wait_set_topics_and_timer
+[47.911s] [ 50%] [32m[1mLinking CXX executable wait_set_listener[0m
+[48.481s] [ 50%] Built target wait_set_listener
+[51.745s] [ 54%] [32m[1mLinking CXX executable wait_set_talker[0m
+[52.072s] [ 54%] Built target wait_set_talker
+[59.711s] [ 58%] [32m[1mLinking CXX executable wait_set[0m
+[61.444s] [ 58%] Built target wait_set
+[63.861s] [ 62%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[65.026s] [ 62%] Built target thread_safe_wait_set
+[66.383s] [ 66%] [32m[1mLinking CXX executable static_wait_set[0m
+[67.045s] [ 70%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[67.100s] [ 75%] [32m[1mLinking CXX shared library liblistener.so[0m
+[67.330s] [ 75%] Built target static_wait_set
+[67.912s] [ 75%] Built target wait_set_random_order
+[68.063s] [ 75%] Built target listener
+[68.093s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[77.990s] [ 83%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[78.424s] [ 83%] Built target wait_set_topics_with_different_rates
+[78.445s] [ 87%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[81.568s] [ 91%] [32m[1mLinking CXX executable wait_set_composed[0m
+[81.787s] [ 91%] Built target wait_set_composed
+[81.809s] [ 95%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[90.817s] [100%] [32m[1mLinking CXX executable executor_random_order[0m
+[91.144s] [100%] Built target executor_random_order
+[91.154s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[91.204s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set
+[91.209s] -- Install configuration: ""
+[91.210s] -- Execute custom install script
+[91.210s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[91.217s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[91.225s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[91.232s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[91.239s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[91.246s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[91.253s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[91.260s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[91.267s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[91.274s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[91.280s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[91.288s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[91.295s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[91.302s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[91.309s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[91.316s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[91.323s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[91.330s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[91.337s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[91.344s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[91.351s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[91.358s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[91.365s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[91.372s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[91.379s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[91.386s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[91.393s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[91.400s] -- Symlinking: /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[91.409s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_wait_set

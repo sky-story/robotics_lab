@@ -1,0 +1,290 @@
+[0.009s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces
+[0.019s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.122s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.149s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.154s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.178s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.531s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.043s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.066s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.066s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.066s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.066s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.084s] -- Found PythonExtra: .so  
+[1.133s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.141s] -- Added test 'lint_cmake' to check CMake code style
+[1.142s] -- Added test 'xmllint' to check XML markup files
+[1.145s] -- Configuring done
+[1.177s] -- Generating done
+[1.180s] -- Build files have been written to: /home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces
+[1.187s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ningbo@netid.washington.edu/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces
+[1.187s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[1.221s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.231s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.238s] [  4%] Built target ament_cmake_python_copy_tutorial_interfaces
+[1.515s] running egg_info
+[1.515s] creating tutorial_interfaces.egg-info
+[1.515s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.515s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.516s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.516s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.518s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.518s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.544s] [  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[1.634s] [  6%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[1.634s] [  8%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[1.635s] [ 10%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[1.639s] [ 10%] Built target tutorial_interfaces__cpp
+[1.654s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.655s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.655s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.706s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.745s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[1.757s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.760s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.761s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.099s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[2.099s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[2.099s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[2.156s] [ 34%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[2.218s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[2.218s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[2.222s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[2.222s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[2.233s] [ 42%] Built target tutorial_interfaces__rosidl_typesupport_c
+[2.248s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[2.354s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[2.538s] [ 48%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[2.581s] [ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[2.617s] [ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[2.682s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[2.748s] [ 57%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.779s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[2.802s] [ 61%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[2.805s] [ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[2.821s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[2.835s] [ 65%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[2.919s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[2.921s] [ 68%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.935s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.401s] [ 72%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.478s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.490s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[3.537s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[3.540s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.603s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.620s] [ 76%] Built target tutorial_interfaces
+[3.637s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.090s] [ 78%] Built target tutorial_interfaces__py
+[4.108s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[4.108s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[4.108s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[4.214s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[4.249s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[4.268s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.268s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.269s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.381s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.381s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.384s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.422s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.422s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[4.427s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.437s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[4.525s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces
+[4.532s] -- Install configuration: ""
+[4.532s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[4.532s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.532s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.532s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.532s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[4.532s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[4.533s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[4.534s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[4.534s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[4.534s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[4.534s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[4.534s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[4.534s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[4.534s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[4.535s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.535s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.535s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.535s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[4.535s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.535s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.535s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[4.535s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[4.535s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.535s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.535s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.536s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.536s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.536s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[4.536s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[4.536s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[4.536s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[4.537s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.537s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.537s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[4.537s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.537s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[4.537s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[4.538s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.538s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.538s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.538s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.538s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.538s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.538s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[4.538s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[4.538s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.538s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.539s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[4.539s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[4.539s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[4.539s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[4.539s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.539s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[4.539s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.540s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[4.540s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[4.540s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[4.540s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[4.540s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[4.540s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.540s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[4.540s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[4.541s] -- Up-to-date: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[4.541s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[4.541s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[4.541s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[4.541s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[4.541s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.541s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.541s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[4.541s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces
+[4.542s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg
+[4.543s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[4.544s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so
+[4.575s] Listing '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...
+[4.575s] Compiling '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...
+[4.575s] Listing '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...
+[4.575s] Compiling '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...
+[4.575s] Compiling '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...
+[4.575s] Compiling '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py'...
+[4.575s] Listing '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...
+[4.575s] Compiling '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...
+[4.575s] Compiling '/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[4.579s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.579s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.579s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.580s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.580s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.580s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.580s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[4.581s] -- Set runtime path of "/home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[4.581s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[4.581s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[4.581s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[4.581s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[4.581s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[4.581s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[4.582s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[4.582s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[4.582s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[4.582s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[4.582s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[4.583s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[4.584s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.585s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.586s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.587s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.587s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.587s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.587s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[4.587s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[4.587s] -- Installing: /home/ningbo@netid.washington.edu/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[4.590s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ningbo@netid.washington.edu/ros2_ws/build/tutorial_interfaces

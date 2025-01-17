@@ -1,0 +1,23 @@
+[1.984s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data
+[2.698s] running egg_info
+[2.701s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[2.704s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[2.704s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[2.704s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[2.704s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[2.706s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.709s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[2.710s] running build
+[2.710s] running build_py
+[2.710s] running install
+[2.711s] running install_lib
+[2.714s] running install_data
+[2.714s] running install_egg_info
+[2.717s] removing '/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info' (and everything under it)
+[2.721s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.15.3-py3.10.egg-info
+[2.721s] running install_scripts
+[2.762s] Installing publisher_local_function script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.762s] Installing publisher_member_function script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.762s] Installing publisher_old_school script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[2.763s] writing list of installed files to '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[2.813s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data

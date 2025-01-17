@@ -1,0 +1,25 @@
+[1.830s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data
+[2.542s] running develop
+[2.543s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.543s]   warnings.warn(
+[2.851s] running egg_info
+[2.851s] creating launch_testing_examples.egg-info
+[2.852s] writing launch_testing_examples.egg-info/PKG-INFO
+[2.852s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[2.852s] writing entry points to launch_testing_examples.egg-info/entry_points.txt
+[2.852s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[2.853s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[2.853s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.856s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.857s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[2.859s] running build_ext
+[2.859s] Creating /home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch-testing-examples.egg-link (link to .)
+[2.860s] 
+[2.860s] Installed /home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples
+[2.861s] running symlink_data
+[2.861s] creating /home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/share/ament_index
+[2.861s] creating /home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index
+[2.861s] creating /home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.861s] symbolically linking /home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[2.862s] symbolically linking /home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples/package.xml -> /home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/share/launch_testing_examples
+[2.906s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ningbo@netid.washington.edu/ros2_ws/build/launch_testing_examples/build --no-deps symlink_data

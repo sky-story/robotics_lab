@@ -1,0 +1,22 @@
+[0.454s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher': AMENT_PREFIX_PATH=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.801s] [1m============================= test session starts ==============================[0m
+[0.801s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.806s] cachedir: /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache
+[0.806s] rootdir: /home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[0.806s] plugins: launch-testing-ros-0.19.7, ament-pep257-0.12.11, ament-copyright-0.12.11, ament-xmllint-0.12.11, launch-testing-1.0.6, ament-flake8-0.12.11, ament-lint-0.12.11, cov-3.0.0, colcon-core-0.16.1
+[0.900s] [1mcollecting ... [0m[1m
+[0.901s] collected 3 items                                                              [0m
+[0.904s] 
+[1.096s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.197s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.218s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.218s] 
+[1.219s] [33m=============================== warnings summary ===============================[0m
+[1.219s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[1.219s] topics/pointcloud_publisher/test/test_flake8.py::test_flake8
+[1.219s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.219s] 
+[1.219s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.219s] - generated xml file: /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml -
+[1.219s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.42s[0m[33m =========================[0m
+[1.284s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/topics/pointcloud_publisher' returned '0': AMENT_PREFIX_PATH=/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher/pytest.xml --junit-prefix=examples_rclpy_pointcloud_publisher -o cache_dir=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

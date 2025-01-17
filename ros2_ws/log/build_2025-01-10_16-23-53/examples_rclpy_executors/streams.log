@@ -1,0 +1,58 @@
+[1.798s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build
+[2.345s] running develop
+[2.345s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.345s]   warnings.warn(
+[2.661s] Removing /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[3.160s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build
+[3.160s] Invoking command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build install --record /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data --force
+[3.760s] running egg_info
+[3.760s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[3.760s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[3.760s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[3.761s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[3.761s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[3.768s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.770s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[3.770s] running build
+[3.771s] running build_py
+[3.775s] creating /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build
+[3.776s] creating /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib
+[3.776s] creating /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.776s] copying examples_rclpy_executors/listener.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.776s] copying examples_rclpy_executors/callback_group.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.776s] copying examples_rclpy_executors/custom_executor.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.777s] copying examples_rclpy_executors/__init__.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.777s] copying examples_rclpy_executors/custom_callback_group.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.777s] copying examples_rclpy_executors/composed.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.777s] copying examples_rclpy_executors/talker.py -> /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[3.777s] running install
+[3.778s] running install_lib
+[3.778s] creating /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.782s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.782s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.782s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.782s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.783s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.783s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.784s] copying /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[3.785s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[3.785s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[3.785s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[3.786s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[3.786s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[3.786s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[3.786s] byte-compiling /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[3.787s] running install_data
+[3.787s] copying resource/examples_rclpy_executors -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[3.787s] copying package.xml -> /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[3.787s] running install_egg_info
+[3.791s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.3-py3.10.egg-info
+[3.791s] running install_scripts
+[3.837s] Installing callback_group script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.838s] Installing composed script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.838s] Installing custom_callback_group script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.838s] Installing custom_executor script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.838s] Installing listener script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.839s] Installing talker script to /home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[3.839s] writing list of installed files to '/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/install.log'
+[4.043s] Invoked command in '/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/prefix_override:/home/ningbo@netid.washington.edu/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/build install --record /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data --force
