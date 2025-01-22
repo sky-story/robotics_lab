@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/ningbo@netid.washington.edu/robot/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeCache.txt is different than the directory /home/ningbo@netid.washington.edu/ros2_ws/build/examples_rclcpp_minimal_composition where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/ningbo@netid.washington.edu/ros2_ws/src/examples/rclcpp/composition/minimal_composition" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:417: cmake_check_build_system] Error 1

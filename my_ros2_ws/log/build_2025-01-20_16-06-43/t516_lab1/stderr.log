@@ -1,0 +1,5 @@
+  File "/home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1/plot_odom.py", line 5
+    from nav_msgs.msg import # TODO: what type of message should be subscribed to?
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

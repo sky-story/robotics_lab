@@ -1,0 +1,25 @@
+[0.997s] Invoking command in '/home/ningbo@netid.washington.edu/robot/my_ros2_ws/src/t516_lab1': PYTHONPATH=/home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/prefix_override:/home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/t516_lab1 build --build-base /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/build install --record /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/install.log --single-version-externally-managed install_data
+[1.350s] running egg_info
+[1.351s] writing ../../build/t516_lab1/t516_lab1.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../build/t516_lab1/t516_lab1.egg-info/dependency_links.txt
+[1.351s] writing entry points to ../../build/t516_lab1/t516_lab1.egg-info/entry_points.txt
+[1.352s] writing requirements to ../../build/t516_lab1/t516_lab1.egg-info/requires.txt
+[1.352s] writing top-level names to ../../build/t516_lab1/t516_lab1.egg-info/top_level.txt
+[1.355s] reading manifest file '../../build/t516_lab1/t516_lab1.egg-info/SOURCES.txt'
+[1.356s] writing manifest file '../../build/t516_lab1/t516_lab1.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.356s] copying t516_lab1/plot_odom.py -> /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/build/lib/t516_lab1
+[1.356s] running install
+[1.357s] running install_lib
+[1.358s] copying /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/build/lib/t516_lab1/plot_odom.py -> /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1
+[1.358s] byte-compiling /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1/plot_odom.py to plot_odom.cpython-310.pyc
+[1.358s] running install_data
+[1.358s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (plot_odom.py, line 29)
+[1.359s] running install_egg_info
+[1.360s] removing '/home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.361s] Copying ../../build/t516_lab1/t516_lab1.egg-info to /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1-0.0.0-py3.10.egg-info
+[1.362s] running install_scripts
+[1.392s] Installing plot_odom script to /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/t516_lab1
+[1.392s] writing list of installed files to '/home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/install.log'
+[1.431s] Invoked command in '/home/ningbo@netid.washington.edu/robot/my_ros2_ws/src/t516_lab1' returned '0': PYTHONPATH=/home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/prefix_override:/home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/t516_lab1 build --build-base /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/build install --record /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/install.log --single-version-externally-managed install_data

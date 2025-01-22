@@ -1,0 +1,3 @@
+[console_scripts]
+plot_odom = t516_lab1.plot_odom:main
+

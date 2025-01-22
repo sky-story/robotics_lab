@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/t516_lab1/t516_lab1.egg-info/PKG-INFO
+writing dependency_links to ../../build/t516_lab1/t516_lab1.egg-info/dependency_links.txt
+writing entry points to ../../build/t516_lab1/t516_lab1.egg-info/entry_points.txt
+writing requirements to ../../build/t516_lab1/t516_lab1.egg-info/requires.txt
+writing top-level names to ../../build/t516_lab1/t516_lab1.egg-info/top_level.txt
+reading manifest file '../../build/t516_lab1/t516_lab1.egg-info/SOURCES.txt'
+writing manifest file '../../build/t516_lab1/t516_lab1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying t516_lab1/plot_odom.py -> /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/build/lib/t516_lab1
+running install
+running install_lib
+copying /home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/build/lib/t516_lab1/plot_odom.py -> /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1
+byte-compiling /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1/plot_odom.py to plot_odom.cpython-310.pyc
+running install_data
+  File "/home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1/plot_odom.py", line 5
+    from nav_msgs.msg import # TODO: what type of message should be subscribed to?
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+
+running install_egg_info
+removing '/home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/t516_lab1/t516_lab1.egg-info to /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/python3.10/site-packages/t516_lab1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing plot_odom script to /home/ningbo@netid.washington.edu/robot/my_ros2_ws/install/t516_lab1/lib/t516_lab1
+writing list of installed files to '/home/ningbo@netid.washington.edu/robot/my_ros2_ws/build/t516_lab1/install.log'
